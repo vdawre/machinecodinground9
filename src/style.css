@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 240px;
+    padding: 4px 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.subtitle{
+    font-size: 16px;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.hStack{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.vStack{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.px{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.py{
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.overlay{
+    display: flex;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    height: 24px;
+    width: 24px;
+}
+.avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+}
+.btn{
+    width: fit-content;
+    padding: 4px 8px;
+}
+
+.navbar{
+    width: 320px;
+    gap: 16px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.video-card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 360px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 1px solid whitesmoked;
+}
+.searchbar > input{
+    width: 240px;
+    height: 48px;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.grow{
+    display: flex;
+    flex-grow: 1;
+}
+
+.video-section{
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-section{
+    display: flex;
+    padding: 8px 8px;
+    flex-direction: column;
+    width: fit-content;
+    gap: 4px;
+}
+.playlist-image{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
